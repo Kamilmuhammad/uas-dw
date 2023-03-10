@@ -52,7 +52,7 @@ export default function Home() {
 
             <main className="bg-black h-screen justify-center items-center text-white flex">
                 <div
-                    className={`w-1/3 h-1/3 bg-gray-400 rounded-lg justify-start items-center ${
+                    className={`w-11/12 h-1/3 bg-gray-400 rounded-lg justify-start items-center ${
                         kenalan ? "hidden" : "flex"
                     } ${mau ? "hidden" : "flex"}`}
                 >
@@ -81,7 +81,7 @@ export default function Home() {
                 </div>
                 {/* ganti */}
                 <div
-                    className={`w-1/3 h-1/3 bg-gray-400 rounded-lg justify-center text-black text-center space-y-4 ${
+                    className={`w-11/12 h-1/3 bg-gray-400 rounded-lg justify-center text-black text-center space-y-4 ${
                         kenalan ? "block" : "hidden"
                     } ${kenalan && pilih ? "hidden" : "ok"}`}
                 >
@@ -113,7 +113,7 @@ export default function Home() {
                     )}
                 </div>
                 <div
-                    className={`w-1/3 h-1/3 bg-gray-400 rounded-lg justify-center text-black text-center gap-4 ${
+                    className={`w-11/12 h-1/3 bg-gray-400 rounded-lg justify-center text-black text-center gap-4 ${
                         pilih ? "flex flex-col" : "hidden"
                     }`}
                 >
