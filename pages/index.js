@@ -27,7 +27,7 @@ export default function Home() {
     }
     function handleSubmitPilih(e) {
         e.preventDefault();
-        const phoneNumber = "087726157974"; // replace with your phone number
+        const phoneNumber = "+6287726157974"; // replace with your phone number
         const message = "asikkk hayuu kita makan di " + { tempat }; // replace with your message
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
             message
