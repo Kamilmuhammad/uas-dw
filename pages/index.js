@@ -27,7 +27,7 @@ export default function Home() {
     }
     function handleSubmitPilih(e) {
         e.preventDefault();
-        const message = "asikkk hayuu kita makan di " + { tempat };
+        const message = "asikkk hayuu kita makan di " + tempat;
         const whatsappLink = `https://wa.me/+6287726157974?text=${message}`;
         window.open(whatsappLink);
     }
